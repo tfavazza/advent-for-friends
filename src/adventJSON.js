@@ -99,18 +99,18 @@ const json = {
 		{
 			"day": 13,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://i.imgur.com/ZT0lxJC.jpg",
+			"description": "What the internet was created for",
+			"image": "😾",
+			"button": "CAT"
 		},		
 		{
 			"day": 14,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://archive.org/details/1100_break",
+			"description": "Sometimes, breaking everything is the only answer",
+			"image": "🧱",
+			"button": "PLINK"
 		},		
 		{
 			"day": 15,
@@ -139,18 +139,18 @@ const json = {
 		{
 			"day": 18,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://www.youtube.com/watch?v=bZJXWkWeS2k",
+			"description": "Tu sei la patata",
+			"image": "🥔",
+			"button": "PO-TA-TOES"
 		},		
 		{
 			"day": 19,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://archive.org/details/flash_allyourbase",
+			"description": "It's an old meme sir, but it checks out",
+			"image": "🛸",
+			"button": "MAKE YOUR TIME"
 		},		
 		{
 			"day": 20,
