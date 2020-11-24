@@ -115,10 +115,10 @@ const json = {
 		{
 			"day": 15,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "http://digizyme.com/cst_landscapes.html",
+			"description": "A closer look",
+			"image": "🦠",
+			"button": "Bio 101"
 		},		
 		{
 			"day": 16,
