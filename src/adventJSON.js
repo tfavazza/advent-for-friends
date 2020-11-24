@@ -67,10 +67,10 @@ const json = {
 		{
 			"day": 9,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://www.youtube.com/watch?v=IvUU8joBb1Q",
+			"description": "Not exactly marble racing, but close",
+			"image": "⚪",
+			"button": "Rolling"
 		},		
 		{
 			"day": 10,
