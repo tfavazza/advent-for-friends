@@ -1,14 +1,6 @@
-import treelogo from './treelogo.svg';
 import './App.css';
-import React, { useState } from 'react';
-
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Toast from 'react-bootstrap/Toast';
-import Container from 'react-bootstrap/Container';
+import React from 'react';
 import Button from 'react-bootstrap/Button';
-import Spinner from 'react-bootstrap/Spinner';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Card from'react-bootstrap/Card';
 
 // todo clicky box that disappears 
@@ -16,12 +8,11 @@ import Card from'react-bootstrap/Card';
 function AdventDay(props) {
 	return(
 			<Card 
-				bg={props.active ? 'success' : 'disabled'}
-			>
-				<Card.Img variant="top" src={props.active ? props.image : treelogo} />
+				bg={props.active ? 'success' : 'dark'}
+			><Card.Header>{props.active ? props.image : "????"}</Card.Header>
 	          		<Card.Body>
 	            		<Card.Title>{`Day ${props.day}`}</Card.Title>
-	              		<Card.Subtitle className="mb-2 text-muted">
+	              		<Card.Subtitle className={`mb-2 ${!props.active ? "text-muted" : ""}`}>
 	              			{props.active ? props.description : `Coming Soon!`}
 	              		</Card.Subtitle>
 	            		<Button 

@@ -5,7 +5,7 @@ const json = {
 			"active": false,
 			"link": "https://www.youtube.com/watch?v=5_sfnQDr1-o",
 			"description": "A minute of meditation",
-			"image": "",
+			"image": "🐒",
 			"button": "BBMK"
 		},
 		{
@@ -13,7 +13,7 @@ const json = {
 			"active": false,
 			"link": "http://foddy.net/Athletics.html?webgl=true",
 			"description": "Excercise is good for everyone",
-			"image": "",
+			"image": "🏃",
 			"button": "WQPO"
 		},		
 		{
@@ -21,7 +21,7 @@ const json = {
 			"active": false,
 			"link": "https://www.youtube.com/watch?v=kCpjgl2baLs",
 			"description": "We've always been ready for Armeggedon",
-			"image": "",
+			"image": "🚀",
 			"button": "WTFmate"
 		},		
 		{
@@ -29,7 +29,7 @@ const json = {
 			"active": false,
 			"link": "https://www.mathsisfun.com/games/2048.html",
 			"description": "2-4-6-8 who do we appreciate?",
-			"image": "",
+			"image": "🔢",
 			"button": "Double down"
 		},		
 		{
@@ -37,15 +37,15 @@ const json = {
 			"active": false,
 			"link": "https://twitter.com/mightbecursed/status/1143265559796076544",
 			"description": "A balanced meal",
-			"image": "",
-			"button": "🍏🍔"
+			"image": "🍏",
+			"button": "🍔"
 		},		
 		{
 			"day": 6,
 			"active": false,
 			"link": "https://smart-games.org/en/set/start",
 			"description": "Pattern recognition",
-			"image": "",
+			"image": "🎲",
 			"button": "SET"
 		},		
 		{
@@ -53,7 +53,7 @@ const json = {
 			"active": false,
 			"link": "https://www.youtube.com/watch?v=xuCn8ux2gbs",
 			"description": "A short history of nearly everything",
-			"image": "",
+			"image": "🌌",
 			"button": "I guess"
 		},		
 		{
@@ -61,7 +61,7 @@ const json = {
 			"active": false,
 			"link": "https://dr-d-king.itch.io/toktik-colorpick",
 			"description": "A game that's better than watching paint dry.",
-			"image": "",
+			"image": "🎨",
 			"button": "COLORS"
 		},		
 		{
@@ -93,7 +93,7 @@ const json = {
 			"active": false,
 			"link": "https://www.youtube.com/watch?v=493ljyoox6o",
 			"description": "Detour to cloud city",
-			"image": "",
+			"image": "💥",
 			"button": "Impressive"
 		},		
 		{
@@ -133,7 +133,7 @@ const json = {
 			"active": false,
 			"link": "https://archive.org/details/helicoptergame_flash",
 			"description": "Get to tha choppa",
-			"image": "",
+			"image": "🚁",
 			"button": "Fly"
 		},		
 		{
@@ -173,7 +173,7 @@ const json = {
 			"active": false,
 			"link": "https://www.youtube.com/watch?v=JwZwkk7q25I",
 			"description": "Everybody, everybody!",
-			"image": "",
+			"image": "💯",
 			"button": "E-MAIL"
 		},		
 		{
@@ -197,7 +197,7 @@ const json = {
 			"active": false,
 			"link": "https://www.youtube.com/watch?v=7tThYxp5kmk",
 			"description": "A slice of Euorvision",
-			"image": "",
+			"image": "🖕",
 			"button": "2020"
 		},		
 

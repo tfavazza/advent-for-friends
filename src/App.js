@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import tree from './tree.png'
 import './App.css';
 import React, { useState } from 'react';
 
@@ -13,27 +14,22 @@ import Card from'react-bootstrap/Card';
 import AdventDay from './AdventDay';
 import json from './adventJSON';
 
-// setState here instead of through json
-
-
 function setDays(json) {
   console.log(json.days[0]);
   let days = json.days;
-  const startDate =  new Date('Tues Dec 1 2020 00:00:01 GMT-0500 (Eastern Standard Time)');
-  let utcDay = new Date();
+
+// stole this from SCL Manager, is still gross and dumb but it works 
+  const startDate =  new Date('Tues Dec 1 2020 00:00:01 GMT');
+  let utcDay = new Date()
   let today = utcDay - new Date().getTimezoneOffset();
   let adventDay = (today - startDate) / 86400000;
   adventDay = parseInt(Math.ceil(adventDay), 10)
-  console.log(days[adventDay]);
-  console.log(days[1]);
+
   if (adventDay >= 0) {
     for (let i = 0; i <= adventDay; i++ ) {
       days[i].active = true;
     }
   }
-  console.log(days[adventDay]);
-  console.log(today);
-  console.log(adventDay);
   return days;
 };
 
@@ -43,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={tree} className="App-logo" alt="logo" />
           <Container flex>
             <Row md={5} lg={5} sm={5}>
             {json.days.map(day => <AdventDay
