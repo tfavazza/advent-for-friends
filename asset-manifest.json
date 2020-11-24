@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/advent-for-friends/static/css/main.3e3a97db.chunk.css",
+    "main.js": "/advent-for-friends/static/js/main.7f4c349d.chunk.js",
+    "main.js.map": "/advent-for-friends/static/js/main.7f4c349d.chunk.js.map",
+    "runtime-main.js": "/advent-for-friends/static/js/runtime-main.8f121f07.js",
+    "runtime-main.js.map": "/advent-for-friends/static/js/runtime-main.8f121f07.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/advent-for-friends/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.d38463e4.chunk.js": "/advent-for-friends/static/js/2.d38463e4.chunk.js",
+    "static/js/2.d38463e4.chunk.js.map": "/advent-for-friends/static/js/2.d38463e4.chunk.js.map",
+    "static/js/3.6acc7163.chunk.js": "/advent-for-friends/static/js/3.6acc7163.chunk.js",
+    "static/js/3.6acc7163.chunk.js.map": "/advent-for-friends/static/js/3.6acc7163.chunk.js.map",
+    "index.html": "/advent-for-friends/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/advent-for-friends/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.3e3a97db.chunk.css.map": "/advent-for-friends/static/css/main.3e3a97db.chunk.css.map",
+    "static/js/2.d38463e4.chunk.js.LICENSE.txt": "/advent-for-friends/static/js/2.d38463e4.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/advent-for-friends/static/media/logo.103b5fa1.svg",
+    "static/media/tree.760d7ce5.png": "/advent-for-friends/static/media/tree.760d7ce5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f121f07.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.d38463e4.chunk.js",
+    "static/css/main.3e3a97db.chunk.css",
+    "static/js/main.7f4c349d.chunk.js"
+  ]
+}
