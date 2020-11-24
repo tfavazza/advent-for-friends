@@ -10,16 +10,18 @@ function AdventDay(props) {
 			<Card 
 				bg={props.active ? 'success' : 'dark'}
 			><Card.Header>{props.active ? props.image : "????"}</Card.Header>
-	          		<Card.Body>
+	          		<Card.Body className="d-flex flex-column">
 	            		<Card.Title>{`Day ${props.day}`}</Card.Title>
 	              		<Card.Subtitle className={`mb-2 ${!props.active ? "text-muted" : ""}`}>
 	              			{props.active ? props.description : `Coming Soon!`}
 	              		</Card.Subtitle>
-	            		<Button 
+	            		<Button
+	            			className="mt-auto"
+	            			block 
 	            			disabled={!props.active}
 	            			href={props.link}
 	            			target="_blank"
-	            			variant={props.active ? props.info : 'outline-info'}>
+	            			variant={props.active ? 'info' : 'outline-info'}>
 	            			{props.active ? props.button : "SOON"}
 	            		</Button>
 	          		</Card.Body>
