@@ -15,7 +15,6 @@ import AdventDay from './AdventDay';
 import json from './adventJSON';
 
 function setDays(json) {
-  console.log(json.days[0]);
   let days = json.days;
 
 // stole this from SCL Manager, is still gross and dumb but it works 
