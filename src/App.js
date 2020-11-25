@@ -32,7 +32,7 @@ function App() {
       <header className="App-header">
         <img src={tree} className="App-logo" alt="logo" />
           <Container flex>
-            <Row md={5} lg={5} sm={5} xs={5}>
+            <Row md={5} lg={5} sm={3} xs={3}>
             {json.days.map(day => <AdventDay
               day={day.day}
               description={day.description}
