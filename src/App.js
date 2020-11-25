@@ -18,14 +18,15 @@ function setDays(json) {
   let days = json.days;
 
 // stole this from SCL Manager, is still gross and dumb but it works 
-  const startDate =  new Date('Tues Dec 1 2020 00:00:01 GMT');
+  //const startDate =  new Date('Tues Dec 1 2020 00:00:01 GMT');
+  const startDate = new Date('Sun Nov 7 2020 00:00:01 GMT')
   let utcDay = new Date()
   let today = utcDay - new Date().getTimezoneOffset();
   let adventDay = (today - startDate) / 86400000;
   adventDay = parseInt(Math.ceil(adventDay), 10)
 
   if (adventDay >= 0) {
-    for (let i = 0; i <= adventDay; i++ ) {
+    for (let i = 0; i <= adventDay && i <= 24; i++ ) {
       days[i].active = true;
     }
   }
@@ -36,11 +37,11 @@ function App() {
   let success = "success";
   let days = setDays(json);
   return (
-    <div className="App">
+    <div className="App flex">
       <header className="App-header">
         <img src={tree} className="App-logo" alt="logo" />
           <Container flex>
-            <Row md={5} lg={5} sm={5}>
+            <Row md={5} lg={5} sm={5} xs={5}>
             {json.days.map(day => <AdventDay
               day={day.day}
               background={success}
