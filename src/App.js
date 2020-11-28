@@ -11,7 +11,7 @@ function setDays(json) {
   let days = json.days;
 
 // stole this from SCL Manager, is still gross and dumb but it works 
-  const startDate =  new Date('Tues Oct 27 2020 00:00:01 GMT');
+  const startDate =  new Date('Tues Dec 1 2020 00:00:01 GMT');
   let utcDay = new Date()
   let today = utcDay - new Date().getTimezoneOffset();
   let adventDay = (today - startDate) / 86400000;
