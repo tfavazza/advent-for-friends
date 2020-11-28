@@ -124,9 +124,9 @@ const json = {
 			"day": 16,
 			"active": false,
 			"link": "https://magenta.github.io/lofi-player/",
-			"description": "",
+			"description": "make your own chill",
 			"image": "🎵",
-			"button": ""
+			"button": "relax"
 		},		
 		{
 			"day": 17,
@@ -155,18 +155,18 @@ const json = {
 		{
 			"day": 20,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://haxiomic.github.io/GPU-Fluid-Experiments/html5/?q=UltraHigh",
+			"description": "Swirls and whirls",
+			"image": "🌀",
+			"button": "woah"
 		},		
 		{
 			"day": 21,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "http://typedrummer.com/",
+			"description": "par-rum-pa-pum-pum",
+			"image": "🥁",
+			"button": "boots'n'cats"
 		},		
 		{
 			"day": 22,
@@ -179,18 +179,18 @@ const json = {
 		{
 			"day": 23,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "http://www.staggeringbeauty.com/",
+			"description": "They call me Dr. Worm",
+			"image": "🐛",
+			"button": "Noodling"
 		},		
 		{
 			"day": 24,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://www.lexaloffle.com/bbs/?pid=77021",
+			"description": "More wanton block destruction",
+			"image": "🔨",
+			"button": "DOWN"
 		},		
 		{
 			"day": 25,
