@@ -30,7 +30,8 @@ function App() {
   return (
     <div className="App flex">
       <header className="App-header">
-        <img src={tree} className="App-logo" alt="logo" />
+      <a href="https://www.youtube.com/watch?v=RTs5eKZ0i1E" target="_blank" className="arrow">
+        <img src={tree} className="App-logo" alt="logo" /></a>
           <Container flex>
             <Row md={5} lg={5} sm={3} xs={3}>
             {json.days.map(day => <AdventDay
