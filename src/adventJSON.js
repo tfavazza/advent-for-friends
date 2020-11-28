@@ -1,13 +1,13 @@
 const json = {
 	"days": [
-		{
+				{
 			"day": 1,
 			"active": false,
-			"link": "https://www.youtube.com/watch?v=5_sfnQDr1-o",
-			"description": "A minute of meditation",
-			"image": "🐒",
-			"button": "BBMK"
-		},
+			"link": "http://video.bobdylan.com/",
+			"description": "Channel surfing",
+			"image": "🗿",
+			"button": "Bob"
+		},	
 		{
 			"day": 2,
 			"active": false,
@@ -75,18 +75,18 @@ const json = {
 		{
 			"day": 10,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
-		},		
+			"link": "https://www.youtube.com/watch?v=eDU0CTDMk2g",
+			"description": "A moment of breakfast meditation",
+			"image": "🧇",
+			"button": "Down the hatch"
+		},	
 		{
 			"day": 11,
 			"active": false,
-			"link": "",
-			"description": "",
-			"image": "",
-			"button": ""
+			"link": "https://music.ishkur.com/",
+			"description": "Noisy history",
+			"image": "🎹",
+			"button": "808"
 		},		
 		{
 			"day": 12,
@@ -123,9 +123,9 @@ const json = {
 		{
 			"day": 16,
 			"active": false,
-			"link": "",
+			"link": "https://magenta.github.io/lofi-player/",
 			"description": "",
-			"image": "",
+			"image": "🎵",
 			"button": ""
 		},		
 		{
