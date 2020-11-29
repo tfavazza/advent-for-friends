@@ -75,10 +75,10 @@ const json = {
 		{
 			"day": 10,
 			"active": false,
-			"link": "https://www.youtube.com/watch?v=eDU0CTDMk2g",
-			"description": "A moment of breakfast meditation",
-			"image": "🧇",
-			"button": "Down the hatch"
+			"link": "https://bongo.cat/",
+			"description": "Not quite a Katzenorgel",
+			"image": "🐱",
+			"button": "boot'n'cats"
 		},	
 		{
 			"day": 11,
@@ -139,10 +139,10 @@ const json = {
 		{
 			"day": 18,
 			"active": false,
-			"link": "https://www.youtube.com/watch?v=bZJXWkWeS2k",
-			"description": "Tu sei la patata",
-			"image": "🥔",
-			"button": "PO-TA-TOES"
+			"link": "https://www.youtube.com/watch?v=eDU0CTDMk2g",
+			"description": "A moment of breakfast meditation",
+			"image": "🧇",
+			"button": "Down the hatch"
 		},		
 		{
 			"day": 19,
@@ -166,7 +166,7 @@ const json = {
 			"link": "http://typedrummer.com/",
 			"description": "par-rum-pa-pum-pum",
 			"image": "🥁",
-			"button": "boots'n'cats"
+			"button": "ba-dum-tish"
 		},		
 		{
 			"day": 22,
