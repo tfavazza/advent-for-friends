@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App flex">
       <header className="App-header">
-      <a href="https://www.youtube.com/watch?v=RTs5eKZ0i1E" target="_blank" className="arrow">
+      <a href="https://www.youtube.com/watch?v=RTs5eKZ0i1E" target="_blank" rel="noreferrer" className="arrow">
         <img src={tree} className="App-logo" alt="logo" /></a>
           <Container flex>
             <Row md={5} lg={5} sm={3} xs={3}>
