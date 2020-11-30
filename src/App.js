@@ -18,9 +18,9 @@ function setDays(json) {
   let adventDay = (today - startDate) / 86400000;
   adventDay = parseInt(Math.ceil(adventDay), 10)
 
-  if (adventDay >= 0) {
-    for (let i = 0; i <= adventDay && i <= 24; i++ ) {
-      days[i].active = true;
+  if (adventDay >= 1) {
+    for (let i = 1; i <= adventDay && i <= 25; i++ ) {
+      days[i-1].active = true;
     }
   }
   return days;
